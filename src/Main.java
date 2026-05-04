@@ -1,6 +1,6 @@
 /**
-Erstelle dein Programm über Blockly und
-klicke auf 'Play', um es auszuführen!
+// Erstelle dein Programm über Blockly und
+// klicke auf 'Play', um es auszuführen!
 */
 
 public class Main { 
@@ -20,4 +20,5 @@ public class Main {
         mensch.gassiGehen();
     }
 
-}
+} /*// main()-Methode starten
+Main.main();*/

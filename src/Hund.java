@@ -1,6 +1,6 @@
 /**
-Erstelle dein Programm über Blockly und
-klicke auf 'Play', um es auszuführen!
+// Erstelle dein Programm über Blockly und
+// klicke auf 'Play', um es auszuführen!
 */
 
 public class Hund { 
@@ -8,33 +8,9 @@ public class Hund {
 
 
     public void beiFuss(Mensch herrchen) {
-        
-    }
-
-    public void zuPositionLaufen(double x, double y) {
-        double diffX = x - getX();
-        double diffY = y - getX();
-        double distanz = Math.sqrt(Math.pow(diffX, 2) + Math.pow(diffY, 2));
-
-        if (distanz > 1) {
-            double dirX = diffX / distanz;
-            double dirY = diffY / distanz;
-
-            while (distanz > 1) {
-                group.move(dirX, dirY);
-                distanz = distanz - 1;
-            }
-            double restX = x - getX();
-            double restY = y - getX();
-            group.move(restX, restY);
-        }
     }
 
     public double getX() {
-        return group.getCenterX();
-    }
-
-    public double getY() {
         return group.getCenterX();
     }
 
@@ -60,6 +36,29 @@ public class Hund {
         route.setFillColor("#996633");
         group = new Group(koerper, kopf, beinL, beinR, ohrL, ohrR, auge, route);
         group.move(50, 50);
+    }
+
+    public double getY() {
+        return group.getCenterY();
+    }
+
+    public void zuPositionLaufen(double x, double y) {
+        double diffX = x - getX();
+        double diffY = y - getY();
+        double distanz = Math.sqrt(Math.pow(diffX, 2) + Math.pow(diffY, 2));
+
+        if (distanz > 1) {
+            double dirX = diffX / distanz;
+            double dirY = diffY / distanz;
+
+            while (distanz > 1) {
+                group.move(dirX, dirY);
+                distanz = distanz - 1;
+            }
+            double restX = x - getX();
+            double restY = y - getY();
+            group.move(restX, restY);
+        }
     }
 
 }

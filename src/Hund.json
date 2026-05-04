@@ -1112,13 +1112,13 @@
         "inputs": {
           "RETURN": {
             "block": {
-              "type": "gfx_get_x",
-              "id": "pNP=v%23a8!gwIn_sZP2",
+              "type": "gfx_get_y",
+              "id": "x2O#|(h4Lk(zHRQVEMad",
               "inputs": {
                 "OBJ": {
                   "shadow": {
                     "type": "java_local_var_get",
-                    "id": "oN@ZUjkD3To_KQ,a@^`2",
+                    "id": "Ds.#dh@*[/;Yatr3%AfW",
                     "fields": {
                       "VAR": {
                         "id": "xbiy=^.M/=4;bK7DvVIQ",
@@ -1129,7 +1129,7 @@
                   },
                   "block": {
                     "type": "java_normal_attr_get",
-                    "id": "[0q]qT{:VIiYiyUM{H8?",
+                    "id": "horv#k|`}X[+1MZo~V+:",
                     "fields": {
                       "VAR": {
                         "id": "u#lMY?DFq(_gA2|BH`@M"
@@ -1252,8 +1252,8 @@
                             },
                             "block": {
                               "type": "java_method_call_return",
-                              "id": "jk%Hf}mI|*Bo:3V+~Sq*",
-                              "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" method=\"getX\" args=\"0\"></mutation>"
+                              "id": "%/@]C+V0mYE-PJyirvoa",
+                              "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" method=\"getY\" args=\"0\"></mutation>"
                             }
                           }
                         }
@@ -1799,8 +1799,8 @@
                                                           },
                                                           "block": {
                                                             "type": "java_method_call_return",
-                                                            "id": "/0;=F(TM:G.CX-YZ:zlm",
-                                                            "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" method=\"getX\" args=\"0\"></mutation>"
+                                                            "id": ",`y+X]h8)wi]9#+1iA6g",
+                                                            "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" method=\"getY\" args=\"0\"></mutation>"
                                                           }
                                                         }
                                                       }
