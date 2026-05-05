@@ -12,7 +12,7 @@ Der Code für beide Klassen ist bereits vorhanden. Sie haben bereits ein Erschei
 
 ---
 
-## Vorlage
+## Beschreibung - Vorlage
 
 - Die Main-Methode enthält bereits etwas Code, damit du deine Änderungen direkt siehst, wenn du startest. Hieran musst du nichts ändern.
 - Die Konstruktoren von Mensch und Hund erzeugen alle benötigten Grafik-Objekte. Du musst sie nicht verändern. Es wird jeweils eine Grafik-Gruppe erzeugt (siehe Klassendiagramm) mit der du das ganze Objekt auf einmal bewegen kannst. Wichtig ist, dass diese Gruppe immer alle Grafiken enthält. Das genaue Aussehen kannst du anpassen, wenn du möchtest.
@@ -22,11 +22,12 @@ Der Code für beide Klassen ist bereits vorhanden. Sie haben bereits ein Erschei
 
 ---
 
-## Der Spaziergang - Implementieren
-- `Mensch.getX()`, `Mensch.getY()`: Damit der Hund später nachschauen kann, wo der Mensch ist, brauchen wir Getter-Methoden für die Koordinaten des Menschen. Tipp: Nutze die Koordinaten der `grafikGruppe`.
-- `Mensch.gassiGehen()` — soll den Menschen zu einem zufälligen Punkt bewegen (Empfehlung: zufällige Bewegung zwischen 500 und 1400 Einheiten pro Koordinaten-Richtung vom Startpunkt aus) und anschließend den Hund rufen.
-- `Mensch.hundRufen()` — soll den Hund zum Menschen rufen (nutze `beiFuss`).
-- `Hund.beiFuss(Mensch herrchen)` — soll den Hund veranlassen, zur Position des Menschen zu laufen (Tipp: Nutze `zuPositionLaufen(double x, double y)`).
+## TODO - Der Spaziergang
+- **Mensch.getX(), Mensch.getY()**: Damit der Hund später nachschauen kann, wo der Mensch ist, brauchen wir Getter-Methoden für die Koordinaten des Menschen. Tipp: Nutze die Koordinaten der `grafikGruppe`.
+- **Hund.beiFuss(Mensch herrchen)** — soll den Hund veranlassen, zur Position des Mensch-Objekts zu laufen, das als Parameter übergeben wird (Tipp: Nutze `zuPositionLaufen(double x, double y)`).
+- **Mensch.gassiGehen()** soll den Menschen zu einem zufälligen Punkt bewegen (Empfehlung: zufällige Bewegung zwischen 500 und 1400 Einheiten pro Koordinaten-Richtung vom Startpunkt aus) und anschließend den Hund rufen.
+- **Mensch.hundRufen()** — soll den Hund zum Menschen rufen (nutze `beiFuss` und übergib ein geeignetes Mensch-Objekt als Parameter).
+
 
 
 
