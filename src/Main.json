@@ -5,8 +5,8 @@
       {
         "type": "java_static_method_noreturn",
         "id": "0-~]xj!ER5LuqkjtzKSY",
-        "x": -421,
-        "y": -402,
+        "x": 185,
+        "y": 178,
         "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"></mutation>",
         "icons": {
           "comment": {
@@ -23,33 +23,33 @@
           "STACK": {
             "block": {
               "type": "java_local_var_set",
-              "id": "V`WdBL7p46D9Z}dn@r@u",
+              "id": "hio)PI0M_KP|%sT6=nYE",
               "fields": {
                 "VAR": {
-                  "id": "(fS-%U7Y3ktPTn4%$nAx"
+                  "id": "QmU=BJ0+)TVxpuO4=@x["
                 }
               },
               "inputs": {
                 "VALUE": {
                   "block": {
                     "type": "gfx_new_world",
-                    "id": "^n7zuZs@JF2Bjo.4/!oP",
+                    "id": "^t5Hupts;9RR@=JIHg5m",
                     "inputs": {
                       "WIDTH": {
                         "shadow": {
                           "type": "math_number",
-                          "id": "HvaxZ$_pp}/f!AcU%D~#",
+                          "id": "pC8GMNWsR%8Z?o?Xtpk.",
                           "fields": {
-                            "NUM": 1600
+                            "NUM": 1000
                           }
                         }
                       },
                       "HEIGHT": {
                         "shadow": {
                           "type": "math_number",
-                          "id": "3YbKJS1k8^P:i2DV$OJ(",
+                          "id": "KrC9|GNJ_GTc:n~Yjz0_",
                           "fields": {
-                            "NUM": 1600
+                            "NUM": 1000
                           }
                         }
                       }
@@ -60,22 +60,22 @@
               "next": {
                 "block": {
                   "type": "java_local_var_set",
-                  "id": "aE5Ynh8jorp(;(i%%gbL",
+                  "id": "R={7hN;iK8Y~0%t/]vXR",
                   "fields": {
                     "VAR": {
-                      "id": "B4SR/9:=,A3kk[gWTd+-"
+                      "id": "jW`h|AE`tIftdHL)iE`k"
                     }
                   },
                   "inputs": {
                     "VALUE": {
                       "block": {
                         "type": "callconstructor",
-                        "id": "WU,`(w=xcZME,[WhuXCF",
+                        "id": "e6@K{Hac}.e_a|#EvCe%",
                         "extraState": {
-                          "constructorValue": "Hund:::"
+                          "constructorValue": "Coin:::"
                         },
                         "fields": {
-                          "CONSTRUCTOR_CLASS": "Hund:::"
+                          "CONSTRUCTOR_CLASS": "Coin:::"
                         }
                       }
                     }
@@ -83,31 +83,94 @@
                   "next": {
                     "block": {
                       "type": "java_local_var_set",
-                      "id": "r1fGEwJh8LFjy$VRj;-{",
+                      "id": "^wfX5VeWno@B5Kp^p`o+",
                       "fields": {
                         "VAR": {
-                          "id": "Busce^ctEqx[[0)tx[Xw"
+                          "id": "*J@,h]q|MdJ=[W=purd("
                         }
                       },
                       "inputs": {
                         "VALUE": {
                           "block": {
                             "type": "callconstructor",
-                            "id": "mzRDR`_-y1VO6RojB.ea",
+                            "id": "C6rO5f^%P.TTyIA7OOyr",
                             "extraState": {
-                              "constructorValue": "Mensch:::Hund hund"
+                              "constructorValue": "Player:::double startX,double startY,String farbe,String left,String right,String up,String down,Coin coin"
                             },
                             "fields": {
-                              "CONSTRUCTOR_CLASS": "Mensch:::Hund hund"
+                              "CONSTRUCTOR_CLASS": "Player:::double startX,double startY,String farbe,String left,String right,String up,String down,Coin coin"
                             },
                             "inputs": {
-                              "ARG_Hund hund": {
+                              "ARG_double startX": {
+                                "block": {
+                                  "type": "math_number",
+                                  "id": "}I63/0kw2_](,4.,Qi*[",
+                                  "fields": {
+                                    "NUM": 70
+                                  }
+                                }
+                              },
+                              "ARG_double startY": {
+                                "block": {
+                                  "type": "math_number",
+                                  "id": "3KV2Q7a!G5UhRc!QbU7y",
+                                  "fields": {
+                                    "NUM": 30
+                                  }
+                                }
+                              },
+                              "ARG_String farbe": {
+                                "block": {
+                                  "type": "colour_picker",
+                                  "id": "#8U_;u=ko);b_Cvb%.b8",
+                                  "fields": {
+                                    "COLOUR": "#ff99ff"
+                                  }
+                                }
+                              },
+                              "ARG_String left": {
+                                "block": {
+                                  "type": "text",
+                                  "id": "!9#XUT~`Ex^gN~Qrg(Dh",
+                                  "fields": {
+                                    "TEXT": "a"
+                                  }
+                                }
+                              },
+                              "ARG_String right": {
+                                "block": {
+                                  "type": "text",
+                                  "id": "C_tBi?jO3pC$=(jvGT%L",
+                                  "fields": {
+                                    "TEXT": "d"
+                                  }
+                                }
+                              },
+                              "ARG_String up": {
+                                "block": {
+                                  "type": "text",
+                                  "id": "a]z})0C/t(.b3/}Fd#Co",
+                                  "fields": {
+                                    "TEXT": "w"
+                                  }
+                                }
+                              },
+                              "ARG_String down": {
+                                "block": {
+                                  "type": "text",
+                                  "id": ".FeSONj)qru*Q#F__|Hu",
+                                  "fields": {
+                                    "TEXT": "s"
+                                  }
+                                }
+                              },
+                              "ARG_Coin coin": {
                                 "block": {
                                   "type": "java_local_var_get",
-                                  "id": "*Aa|FUe;m,txX#BkW#%/",
+                                  "id": "o`~F[~ZfqXqdk3gCnE0@",
                                   "fields": {
                                     "VAR": {
-                                      "id": "B4SR/9:=,A3kk[gWTd+-"
+                                      "id": "jW`h|AE`tIftdHL)iE`k"
                                     }
                                   }
                                 }
@@ -118,24 +181,128 @@
                       },
                       "next": {
                         "block": {
-                          "type": "java_obj_method_call_noreturn",
-                          "id": "8^n|D};NM$}6@`6d,ZNn",
-                          "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" args=\"0\" method=\"gassiGehen\"></mutation>",
+                          "type": "java_local_var_set",
+                          "id": "Nj(#ML@zTD_,oAB?aw7|",
                           "fields": {
-                            "METHOD": "gassiGehen"
+                            "VAR": {
+                              "id": "v/A]!}zC,gh_jhqRqOKo"
+                            }
                           },
                           "inputs": {
-                            "OBJ": {
-                              "shadow": {
-                                "type": "java_this",
-                                "id": "o1XF+)]-Z)GteMxJmDbC"
-                              },
+                            "VALUE": {
                               "block": {
-                                "type": "java_local_var_get",
-                                "id": "iv/f_vkiN)aP;3R=Rvk$",
+                                "type": "callconstructor",
+                                "id": "p9fYjO4Et7U!RmA08BY9",
+                                "extraState": {
+                                  "constructorValue": "Player:::double startX,double startY,String farbe,String left,String right,String up,String down,Coin coin"
+                                },
                                 "fields": {
-                                  "VAR": {
-                                    "id": "Busce^ctEqx[[0)tx[Xw"
+                                  "CONSTRUCTOR_CLASS": "Player:::double startX,double startY,String farbe,String left,String right,String up,String down,Coin coin"
+                                },
+                                "inputs": {
+                                  "ARG_double startX": {
+                                    "block": {
+                                      "type": "math_number",
+                                      "id": "9K%RekCK:H|$K^F*.1|b",
+                                      "fields": {
+                                        "NUM": 930
+                                      }
+                                    }
+                                  },
+                                  "ARG_double startY": {
+                                    "block": {
+                                      "type": "math_number",
+                                      "id": "=ejuT+AX1t@|t5^T}8i=",
+                                      "fields": {
+                                        "NUM": 825
+                                      }
+                                    }
+                                  },
+                                  "ARG_String farbe": {
+                                    "block": {
+                                      "type": "colour_picker",
+                                      "id": "4|Zx@gv3yA~auRn7zCWF",
+                                      "fields": {
+                                        "COLOUR": "#33ffff"
+                                      }
+                                    }
+                                  },
+                                  "ARG_String left": {
+                                    "block": {
+                                      "type": "text",
+                                      "id": "HlvHx}OV]3UYO9{90Wfj",
+                                      "fields": {
+                                        "TEXT": "ArrowLeft"
+                                      }
+                                    }
+                                  },
+                                  "ARG_String right": {
+                                    "block": {
+                                      "type": "text",
+                                      "id": "%FalLKipP}hGLlGeU|DB",
+                                      "fields": {
+                                        "TEXT": "ArrowRight"
+                                      }
+                                    }
+                                  },
+                                  "ARG_String up": {
+                                    "block": {
+                                      "type": "text",
+                                      "id": "]w,_n;)wiQb2P=|Ix1-;",
+                                      "fields": {
+                                        "TEXT": "ArrowUp"
+                                      }
+                                    }
+                                  },
+                                  "ARG_String down": {
+                                    "block": {
+                                      "type": "text",
+                                      "id": ":*jlqcuk=W`;ag,qBX8-",
+                                      "fields": {
+                                        "TEXT": "ArrowDown"
+                                      }
+                                    }
+                                  },
+                                  "ARG_Coin coin": {
+                                    "block": {
+                                      "type": "java_local_var_get",
+                                      "id": "]Li/aqw(M.Nf2?{z_Jap",
+                                      "fields": {
+                                        "VAR": {
+                                          "id": "jW`h|AE`tIftdHL)iE`k"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "gfx_world_set_background",
+                              "id": "@q,QFJ~jnr^Id^.WoFP;",
+                              "inputs": {
+                                "OBJ": {
+                                  "shadow": {
+                                    "type": "java_local_var_get",
+                                    "id": "Bg?)^%c`wiyc_~,H;Ug7",
+                                    "fields": {
+                                      "VAR": {
+                                        "id": "QmU=BJ0+)TVxpuO4=@x[",
+                                        "name": "world",
+                                        "type": "local"
+                                      }
+                                    }
+                                  }
+                                },
+                                "COLOR": {
+                                  "shadow": {
+                                    "type": "colour_picker",
+                                    "id": "0wlma@Og1d/-kKh9+MnX",
+                                    "fields": {
+                                      "COLOUR": "#003300"
+                                    }
                                   }
                                 }
                               }
@@ -155,23 +322,27 @@
   },
   "variables": [
     {
-      "name": "hund",
-      "id": "B4SR/9:=,A3kk[gWTd+-",
+      "name": "key",
+      "id": "m+R,qWrDk`cfXN;opt=3"
+    },
+    {
+      "name": "p1",
+      "id": "*J@,h]q|MdJ=[W=purd(",
+      "type": "local"
+    },
+    {
+      "name": "c",
+      "id": "jW`h|AE`tIftdHL)iE`k",
       "type": "local"
     },
     {
       "name": "world",
-      "id": "(fS-%U7Y3ktPTn4%$nAx",
+      "id": "QmU=BJ0+)TVxpuO4=@x[",
       "type": "local"
     },
     {
-      "name": "mensch",
-      "id": "Busce^ctEqx[[0)tx[Xw",
-      "type": "local"
-    },
-    {
-      "name": "i",
-      "id": "IXKVZrkGJZ))fUQ.1c?-",
+      "name": "p2",
+      "id": "v/A]!}zC,gh_jhqRqOKo",
       "type": "local"
     }
   ]

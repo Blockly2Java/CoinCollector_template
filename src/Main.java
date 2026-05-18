@@ -1,6 +1,6 @@
 /**
-// Erstelle dein Programm über Blockly und
-// klicke auf 'Play', um es auszuführen!
+Erstelle dein Programm über Blockly und
+klicke auf 'Play', um es auszuführen!
 */
 
 public class Main { 
@@ -14,11 +14,15 @@ public class Main {
      * gestartet, wenn du auf 'Play' drückst.
      */
     public static void main() {
-        World world = new World(1600, 1600);
-        Hund hund = new Hund();
-        Mensch mensch = new Mensch(hund);
-        mensch.gassiGehen();
+        World world = new World(1000, 1000);
+        Coin c = new Coin();
+        Player p1 = new Player(70, 30, "#ff99ff", "a", "d", "w", "s", c);
+        Player p2 = new Player(930, 825, "#33ffff", "ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", c);
+        world.setBackgroundColor("#003300");
     }
 
-} /*// main()-Methode starten
-Main.main();*/
+}
+
+
+// main()-Methode starten
+Main.main();

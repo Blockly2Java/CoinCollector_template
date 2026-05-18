@@ -20,7 +20,7 @@
         },
         {
           "type": "logic_negate",
-          "active": false
+          "active": true
         },
         {
           "type": "logic_boolean",
@@ -38,7 +38,7 @@
     },
     {
       "name": "Schleifen",
-      "active": true,
+      "active": false,
       "blocks": [
         {
           "type": "controls_repeat_ext",
@@ -46,7 +46,7 @@
         },
         {
           "type": "controls_whileUntil",
-          "active": true
+          "active": false
         },
         {
           "type": "controls_for",
@@ -80,11 +80,11 @@
         },
         {
           "type": "math_trig",
-          "active": true
+          "active": false
         },
         {
           "type": "math_constant",
-          "active": true
+          "active": false
         },
         {
           "type": "math_number_property",
@@ -100,7 +100,7 @@
         },
         {
           "type": "math_modulo",
-          "active": false
+          "active": true
         },
         {
           "type": "math_constrain",
@@ -112,7 +112,7 @@
         },
         {
           "type": "math_random_float",
-          "active": false
+          "active": true
         },
         {
           "type": "math_atan2",
@@ -146,11 +146,11 @@
         },
         {
           "type": "text_join",
-          "active": true
+          "active": false
         },
         {
           "type": "text_append",
-          "active": true
+          "active": false
         },
         {
           "type": "text_length",
@@ -238,7 +238,7 @@
     },
     {
       "name": "Farben",
-      "active": false,
+      "active": true,
       "blocks": [
         {
           "type": "colour_picker",
@@ -246,19 +246,19 @@
         },
         {
           "type": "colour_random",
-          "active": true
+          "active": false
         },
         {
           "type": "colour_rgb",
-          "active": true
+          "active": false
         },
         {
           "type": "colour_blend",
-          "active": true
+          "active": false
         },
         {
           "type": "gfx_color_const",
-          "active": true
+          "active": false
         }
       ]
     },
@@ -282,6 +282,10 @@
           "blocks": [
             {
               "type": "java_this",
+              "active": true
+            },
+            {
+              "type": "java_super",
               "active": true
             }
           ]
@@ -379,15 +383,15 @@
         },
         {
           "type": "java_extends",
-          "active": false
+          "active": true
         },
         {
           "type": "gfx_extends",
-          "active": false
+          "active": true
         },
         {
           "type": "java_super_call",
-          "active": false
+          "active": true
         }
       ]
     },
@@ -435,7 +439,7 @@
         },
         {
           "type": "gfx_set_fill_color_alpha",
-          "active": true
+          "active": false
         },
         {
           "type": "gfx_set_border_color",
@@ -451,7 +455,7 @@
         },
         {
           "type": "gfx_set_alpha",
-          "active": true
+          "active": false
         },
         {
           "type": "gfx_set_visible",
@@ -459,11 +463,11 @@
         },
         {
           "type": "gfx_bring_to_front",
-          "active": true
+          "active": false
         },
         {
           "type": "gfx_send_to_back",
-          "active": true
+          "active": false
         },
         {
           "type": "gfx_set_text_content",
@@ -505,7 +509,7 @@
         },
         {
           "type": "gfx_scale",
-          "active": false
+          "active": true
         },
         {
           "type": "gfx_scale_around",
@@ -513,11 +517,11 @@
         },
         {
           "type": "gfx_mirror_x",
-          "active": true
+          "active": false
         },
         {
           "type": "gfx_mirror_y",
-          "active": true
+          "active": false
         },
         {
           "type": "gfx_line_set_points",
@@ -591,7 +595,7 @@
       "blocks": [
         {
           "type": "gfx_event_handler",
-          "active": true
+          "active": false
         },
         {
           "type": "gfx_world_stop",
@@ -599,15 +603,15 @@
         },
         {
           "type": "gfx_world_start",
-          "active": true
+          "active": false
         },
         {
           "type": "gfx_is_key_down",
-          "active": true
+          "active": false
         },
         {
           "type": "gfx_is_key_up",
-          "active": true
+          "active": false
         }
       ]
     }
