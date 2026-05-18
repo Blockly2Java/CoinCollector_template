@@ -28,13 +28,14 @@ public class Strichmensch extends Group {
         setFillColor("#ffffff");
     }
 
-    public void setFillColor(String farbe) {
+    public Shape setFillColor(String farbe) {
         h.setFillColor(farbe);
         aL.setBorderColor(farbe);
         aR.setBorderColor(farbe);
         bL.setBorderColor(farbe);
         bR.setBorderColor(farbe);
         k.setBorderColor(farbe);
+        return this;
     }
 
 }
