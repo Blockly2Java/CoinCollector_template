@@ -88,7 +88,7 @@
         },
         {
           "type": "math_number_property",
-          "active": false
+          "active": true
         },
         {
           "type": "math_round",
@@ -459,7 +459,7 @@
         },
         {
           "type": "gfx_set_visible",
-          "active": true
+          "active": false
         },
         {
           "type": "gfx_bring_to_front",
@@ -517,11 +517,11 @@
         },
         {
           "type": "gfx_mirror_x",
-          "active": false
+          "active": true
         },
         {
           "type": "gfx_mirror_y",
-          "active": false
+          "active": true
         },
         {
           "type": "gfx_line_set_points",
@@ -595,7 +595,7 @@
       "blocks": [
         {
           "type": "gfx_event_handler",
-          "active": false
+          "active": true
         },
         {
           "type": "gfx_world_stop",
@@ -603,15 +603,15 @@
         },
         {
           "type": "gfx_world_start",
-          "active": false
+          "active": true
         },
         {
           "type": "gfx_is_key_down",
-          "active": false
+          "active": true
         },
         {
           "type": "gfx_is_key_up",
-          "active": false
+          "active": true
         }
       ]
     }

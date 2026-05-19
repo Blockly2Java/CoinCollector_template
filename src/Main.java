@@ -1,6 +1,6 @@
 /**
-Erstelle dein Programm über Blockly und
-klicke auf 'Play', um es auszuführen!
+// Erstelle dein Programm über Blockly und
+// klicke auf 'Play', um es auszuführen!
 */
 
 public class Main { 
@@ -21,4 +21,5 @@ public class Main {
         world.setBackgroundColor("#003300");
     }
 
-}
+} /*// main()-Methode starten
+Main.main();*/
