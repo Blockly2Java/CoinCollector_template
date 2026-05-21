@@ -17,7 +17,6 @@ Group --|> Shape
 Coin --|> Circle
 Circle --|> Shape
 
-Text --|> Shape
 
 Player "n" --> "1" Coin : muenze
 
@@ -28,7 +27,6 @@ class Strichmensch {
 
 
 class Player {
-    - Text scoreLabel
     - String keyL
     - String keyR
     - String keyUp
