@@ -1,0 +1,58 @@
+@startuml
+!include https://raw.githubusercontent.com/patrik-csak/one-dark-plantuml-theme/v1.0.1/theme.puml
+hide circle
+skinparam {
+    classAttributeIconSize 0
+    packageStyle rectangle
+    linetype ortho
+    backgroundColor transparent
+}  
+
+
+
+
+Player --|> Strichmensch
+Strichmensch --|> Group
+Group --|> Shape
+Coin --|> Circle
+Circle --|> Shape
+
+Text --|> Shape
+
+Player "n" --> "1" Coin : muenze
+
+class Strichmensch {
+    + Strichmensch(double x, double y)
+    + void setFillColor(String farbe)
+}
+
+
+class Player {
+    - Text scoreLabel
+    - String keyL
+    - String keyR
+    - String keyUp
+    - String keyDown
+    + Player(double startX, double startY, String farbe, String left, String right, String up, String down, Coin coin)
+    + void onKeyDown(String key)
+    + void act()
+}
+
+class Shape {
+    + void act()
+    + void onKeyDown(String key)
+    + void onKeyUp(String key)
+    + void move(double dx, double dy)
+    + void setFillColor(Color color)
+    + void rotate(double degrees)
+    + void scale(double factor)
+    + double getCenterX()
+    + double getCenterY()
+}
+
+class Coin {
+    - double runCounter
+    + Coin()
+    + void act()
+}
+@enduml

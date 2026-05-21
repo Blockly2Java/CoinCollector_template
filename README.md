@@ -74,4 +74,5 @@ Lasse eine zusätzliche `NPC` Klasse von `Player` ergeben , programmiere sie so,
 
 Der Übersichtlichkeit halber werden bei bereits vorhandenen Grafikklassen nicht alle Elemente dargestellt.
 
-(Nur auf Artemis)
+
+![ARCHITECTURE](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/Blockly2Java/CoinCollector_template/refs/heads/main/cd.puml)
