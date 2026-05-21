@@ -18,7 +18,7 @@ Coin --|> Circle
 Circle --|> Shape
 
 
-Player "n" --> "1" Coin : muenze
+Player --> Coin : muenze
 
 class Strichmensch {
     + Strichmensch(double x, double y)
